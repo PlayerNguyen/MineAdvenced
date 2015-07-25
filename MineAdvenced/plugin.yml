@@ -1,0 +1,25 @@
+name: MineAdvenced
+version: 2.1
+main: com.playernguyen.MineAdvenced
+author: Player_Nguyen
+
+commands:
+    warp:
+        description: Su dung de vao khu
+    setwarp:
+        description: Su dung de dat khu
+    delwarp:
+        description: Su dung de xoa khu
+    setkhu:
+        description: Su dung de dat khu
+    delkhu:
+        description: Su dung de xoa khu
+    khu:
+        description: Su dung de vao khu
+permissions:
+    ma.*:
+        default: op
+    ma.setwarp:
+        default: op
+    ma.delwarp:
+        default: op
